@@ -45,4 +45,4 @@ if SERVER_KEY:
         'text':'WPS邀请好友任务：成功邀请到%d位好友'%(mk),
         'desp':'成功邀请%d位好友'%(mk)
     }
-    requests.post('https://qmsg.zendee.cn/SERVER_KEY.send'), data = data)
+    requests.post('https://qmsg.zendee.cn/send/SERVER_KEY'), data = data)
